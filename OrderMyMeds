@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wycliffes</title>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script src="file:///C|/Users/Jackline/Downloads/TestApp (5)/TestApp/jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="file:///C|/Users/Jackline/Downloads/TestApp (5)/TestApp/jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+<link href="file:///C|/Users/Jackline/Downloads/TestApp (5)/TestApp/jquery-mobile/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.slidedown {
+	-webkit-transition: all 5s ease-in 5s;
+	-o-transition: all 5s ease-in 5s;
+	transition: all 5s ease-in 5s;
+}
+</style>
+</head>
+<body background="file:///C|/Users/Jackline/Downloads/Desktop/Unnamed Site 2/Humprey cancer center.jpg">
+<div class="container-fluid" id="wrapper">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">OrderMyMeds</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="file:///C|/Users/Jackline/Downloads/TestApp (5)/TestApp/index.html">Wycliffe's App</a></div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <img src="Unnamed Site 2/Humprey cancer center.jpg" width="494" height="102" alt=""/>
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Gallery</a></li>
+  <li><a href="#">Contacts</a></li>
+</ul 
+
+<div id="page" data-role="page" data-theme="b">
+<div data-role="header" data-theme="b">
+	 
+	<div data-role="content">	
+		<ul data-role="listview" data-theme="c">
+			<li><a href="#section1">Login to your account</a></li>
+          
+            <li><a href="#prescriptions">Prescriptions</a></li>
+            <li><a href="#pharmacy">Pharmacy</a></li>
+             <li><a href="file:///C|/Users/Jackline/Downloads/TestApp (5)/TestApp/Contacts">Contacts</a></li>
+		</ul>		
+  </div>
+	<div data-role="footer" data-theme="b">
+	  <h4>Wycliffe's App &copy; 2016</h4>
+	</div>
+</div>
+<nav class="slidedown">Content for  class "slidedown" Goes Here</nav>
+
+<div id="section1" data-role="page" data-theme="b" data-add-back-btn="true" data-transition="slidedown">
+  <div data-role="header" data-theme="b">
+	  <h1>Section 1</h1>
+	</div>
+	<div data-role="content">
+	  <h3>Login</h3>
+	  <p> Need your username and password </p>
+      <div data-role="fieldcontain">
+        <label for="passwordinput2">Username:</label>
+        <input type="password" name="passwordinput2" id="passwordinput2" value=""  />
+      </div>
+      
+      <div data-role="fieldcontain">
+        <label for="passwordinput">Password:</label>
+        <input type="password" name="passwordinput" id="passwordinput" value=""  />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="url">Url:</label>
+        
+      </div>
+     
+	<a href="#" accesskey="y" target="_top">https://mychart.northmemorial.com/MyChart/</a>
+	  <p> Your Health is our priority. Order your medications on time. </p>
+	</div>
+	<div data-role="footer" data-theme="b">
+	  <h4>Wycliffe's App &copy; 2016</h4>
+	</div>
+</div>
+
+  
+</div>
+<div data-role="page" id="prescriptions" data-theme="b" data-add-back-btn="true" data-transition="slidedown">
+  <div data-role="header">
+    <h1>Prescriptions</h1>
+    <img src="Unnamed Site 2/Medication-E.jpg" width="473" height="362" alt=""/> </div>
+  <h3>medications</h3>
+            <p>Your medication list</p>
+            <p>Pick the medication you want refilled from the list below.</p> 
+            <p>
+              <label>
+                <input type="checkbox" name="Calcium Carbonate" value="Calcium Carbonate" id="Medications_0">
+                Calcium Carbonate</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Aspirin" value="Aspirin" id="Aspirin">
+                Aspirin</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Medications" value="checkbox" id="Medications_0">
+                Lovenox</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Medications" value="checkbox" id="Medications_0">
+                Digoxin</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Medications" value="checkbox" id="Medications_1">
+                Tylenol</label>
+              <br>
+            </p>
+            <input type="submit">
+            <input type="reset">
+<p>Choose the mode of delivery.</p>
+<input type="radio"><p>Home delivery.</p>
+<input type="radio"><p>Instore Pick Up.</p>
+
+
+<p>Choose the mode of payment.</p>
+
+<input type="radio"><p>Cash on delivery.</p>
+<input type="radio"><p>Credit card.</p>
+<input type="radio"><p>Cheque.</p>
+
+          </div>
+        </div>
+  </div>
+  
+  <div data-role="footer" data-theme="b">
+		<h4>Wycliffe's App &copy; 2016</h4>
+</div>
+</div>
+<div data-role="page" id="pharmacy" data-theme="b" data-add-back-btn="true" data-transition="slidedown">
+  <div data-role="header">
+    <h1>Pharmacy</h1>
+  </div>
+  <div data-role="content">Search for information</div>
+  <h3>My Pharmacy</h3>
+            <p>Your Pharmacy Your Choice.</p>
+            
+              <table width="200">
+                <tr>
+                  <td><label>
+                    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+                    Cub  Pharmacy</label></td>
+                </tr>
+                <tr>
+                  <td><label>
+                    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+                    CVS Pharmacy</label></td>
+                </tr>
+              </table>
+              
+              <table width="200">
+                <tr>
+                  <td><label>
+                    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+                    Target  Pharmacy</label></td>
+                </tr>
+                <tr>
+                  <td><label>
+                    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+                    Sams Club Pharmacy</label></td>
+                </tr>
+              </table>
+              
+              <table width="200">
+                <tr>
+                  <td><label>
+                    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+                    Wallmart  Pharmacy</label></td>
+                </tr>
+                <tr>
+                  <td><label>
+                    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+                    Family Pharmacy</label></td>
+                </tr>
+              </table>
+            
+          </div>
+        </div>
+<div 
+  data-role="footer" data-theme="b">
+		<h4>Wycliffe's App &copy; 2016</h4>
+</div>
+</div>
+<div data-role="page" id="Contacts">
+  <div data-role="header">
+    <h1>Contacts</h1>
+    <ul data-role="listview">
+      <li><a href="#">
+        <h3>Dr. Smith James</h3>
+        <p>Oncologist</p>
+        <span class="ui-li-count">Phone: 1999-11-1111</span></a><a href="#"></a></li>
+      <li><a href="#">
+        <h3>Dr Dan Geralf</h3>
+        <p>Family Physician</p>
+        <span class="ui-li-count">Phone: 615-90-9090</span></a><a href="#"></a></li>
+      <li><a href="#">
+        <h3>Roles Himes Phd</h3>
+        <p>Psychologist</p>
+        <span class="ui-li-count">Personal E-mail: wer@gmail.com</span></a><a href="#"></a></li>
+      <li><a href="#">
+        <h3>Dr. Keein lu</h3>
+        <p>Oncologist</p>
+        <span class="ui-li-count">Green Span office only: 980-000-0000</span></a><a href="#"></a></li>
+      <li><a href="#">
+        <h3>Oregom Yeals Phd</h3>
+        <p>Physician Assistant HCMC</p>
+        <span class="ui-li-count">Phone:980-999-0090</span></a><a href="#"></a></li>
+      <li><a href="#">
+        <h3>Dr. White Tee</h3>
+        <p>Gynecologist</p>
+        <span class="ui-li-count">Phone: 612-879-0000</span></a><a href="#"></a></li>
+        <span class="ui-li-count">Email: yhn@yaa.bo.edu</span></a><a href="#"></a></li>
+        <span class="ui-li-count">Twitter: @TeeWhite</span></a><a href="#"></a></li>
+    </ul>
+    
+  </div>
+  <div data-role="content">Content</div>
+  <div data-role="footer">
+    <h4>Wycliffe's App &copy; 2016</h4>
+  </div>
+</div>
+<div data-role="page" id="Networking">
+  <div data-role="header">
+    <h1>Networking with other cancer patients and care providers</h1>
+  </div>
+  <div data-role="content"data-add-back-btn="true" data-transition="slidedown">Content</div>
+  <ul data-role="listview">
+    <li><a href="#">Providers<span class="ui-li-count">By</span></a><a href="#">Region</a></li>
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>United States</h3>
+        <p>State</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>South America</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Asia</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Africa</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>United Kingdom</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Australia</h3>
+        <p>Part</p>
+      </div>
+    </div>
+    
+    <li><a href="#">Providers<span class="ui-li-count">By</span></a><a href="#">Profession</a></li>
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>Oncologists</h3>
+        <p>Specialty</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Gyneocologist</h3>
+        <p>Specialty</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Herbal Medicine</h3>
+        <p>specialty</p>
+      </div>
+    </div>
+    
+    <li><a href="#">Patients'<span class="ui-li-count">By</span></a><a href="#">Region</a></li>
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>United States</h3>
+        <p>State</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>South America</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Asia</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Africa</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>United Kingdom</h3>
+        <p>Country</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Australia</h3>
+        <p>Part</p>
+      </div>
+    </div>
+    <li><a href="#">Patients'<span class="ui-li-count">By</span></a><a href="#">Diagnosis</a></li>
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>Brain Tumor</h3>
+        <p>Stage</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Lung Cancer</h3>
+        <p>Prognosis</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Pancreatic Cancer</h3>
+        <p>Stage</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Neoplasms</h3>
+        <p>Severity</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Blood Cancer</h3>
+        <p>Kind</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Prostate Cancer</h3>
+        <p>Stage</p>
+      </div>
+    </div>
+  </ul>
+  
+  <div data-role="footer">
+    <h4>Wycliffe's App &copy; 2016</h4>
+  </div>
+</div>
+
+
+</body>
+</html>
